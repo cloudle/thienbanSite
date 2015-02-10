@@ -1,0 +1,27 @@
+@require '../wings.import.styl'
+tile-space = 1px
+tile-size = (app-width / 5) - tile-space
+
+tile-group-space = 0
+tile-caption-padding = 5px
+tile-double-size = tile-size * 2 + tile-space
+
+.tile
+  cursor pointer
+  position relative; float left
+  height tile-size; width tile-size
+  margin 0 tile-space tile-space 0
+  background-color #eee
+
+  &.double
+    width tile-double-size
+  &.double-height
+    height tile-double-size
+  &.quatro
+    width  tile-double-size
+    height tile-double-size
+
+for size in (1..6)
+  .tile-group-{size}
+    float left
+    width (tile-size * size) + (tile-space * size)
