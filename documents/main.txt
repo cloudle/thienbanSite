@@ -1,2 +1,2 @@
-export MONGO_URL=mongodb://gera.vn/edsClone2015
+export MONGO_URL=mongodb://gera.vn/wings
 sudo mount --bind /home/vagrant/wings/local/ /vagrant/wings/.meteor/local/ & cd /vagrant/wings

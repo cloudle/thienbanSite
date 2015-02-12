@@ -28,9 +28,10 @@
 
   // Configure environment
   "env": {
-    "PORT": 2016,
-    "ROOT_URL": "http://gera.vn",
-    "MONGO_URL": "mongodb://localhost:27017/companySite",
+    "PORT": 3001,
+    "UPSTART_UID": "meteoruser",
+    "ROOT_URL": "http://thienban.vn",
+    "MONGO_URL": "mongodb://localhost:27017/wings",
     "MAIL_URL": "smtp://thienbantech@gmail.com:thienban2014@stmp.gmail.com:465/"
   },
 
