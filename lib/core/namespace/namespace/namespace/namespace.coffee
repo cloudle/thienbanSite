@@ -1,4 +1,5 @@
 @Wings = {}
+@Model = {}
 
 Wings.Helper = {}
 Wings.Dependency = {}
