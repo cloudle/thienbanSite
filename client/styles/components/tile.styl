@@ -46,6 +46,10 @@ tile-background(color)
 .tile .canvas-wrapper
   absolute right 0 bottom 0
   width tile-size; height (tile-size / 2)
+  &.overlay
+    background-color rgba(255, 255, 255, 0.2)
+  &.dark-overlay
+    background-color rgba(0, 0, 0, 0.2)
   &.small
     height (tile-size / 4)
     .canvas .caption
